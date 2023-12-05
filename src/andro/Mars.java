@@ -6,6 +6,7 @@
 package andro;
 
 import java.awt.*;
+import java.applet.Applet;
 import javax.swing.*;
 import javax.swing.UIManager.*;
 import java.awt.Color;
@@ -991,8 +992,21 @@ public class Mars extends Canvas{
         g.fillRect(236,193,5,5);
         g.fillRect(246,176,5,10);
         g.fillRect(242,172,5,5);
-        g.fillRect(216,168,26,5);
-        g.fillRect(212,172,5,5);
+        g.fillRect(217,168,25,5);
+        g.fillRect(213,172,5,5);
+        
+        g.fillRect(203,176,15,5);
+        g.fillRect(198,172,5,5);
+        g.fillRect(193,177,5,5);
+        g.fillRect(181,166,10,5);
+        g.fillRect(189,181,5,10);
+        g.fillRect(180,190,10,5);
+
+        Color daun=new Color(255,200,113); 
+        g.setColor(daun);
+        g.fillRect(190,190,5,5);
+        
+        
         
         
     }
