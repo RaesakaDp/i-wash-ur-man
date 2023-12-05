@@ -964,7 +964,6 @@ public class Mars extends Canvas{
         g.fillRect(246,252,5,5);
         g.fillRect(251,255,5,5);
         
-        g.setColor(Color.RED);
         g.fillRect(223,238,5,5);
         g.fillRect(227,242,5,5);
         g.fillRect(231,246,5,15);
@@ -980,9 +979,20 @@ public class Mars extends Canvas{
         g.fillRect(210,203,8,5);
         g.fillRect(216,207,5,5);
         
+        g.setColor(Color.RED);
         g.fillRect(246,218,5,5);
         g.fillRect(250,222,5,5);
         g.fillRect(254,214,5,18);
+        g.fillRect(250,185,5,30);
+        g.fillRect(208,185,5,5);
+        g.fillRect(213,181,5,5);
+        g.fillRect(217,185,10,5);
+        g.fillRect(226,189,10,5);
+        g.fillRect(236,193,5,5);
+        g.fillRect(246,176,5,10);
+        g.fillRect(242,172,5,5);
+        g.fillRect(216,168,26,5);
+        g.fillRect(212,172,5,5);
         
         
     }
