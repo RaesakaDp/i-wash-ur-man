@@ -28,6 +28,15 @@ public class Mars extends Canvas{
         super.paint(g);
         Graphics2D gd = (Graphics2D) g.create();
         
+//        Warna Butuh
+        Color daunpetang=new Color(0,128,0); 
+        Color bungamerah=new Color(220,20,60);
+        Color MidFlower=new Color(225,215,0);
+        Color Pita=new Color(199,21,133);
+        Color bungapink=new Color(255,182,193);
+        Color bungapink2=new Color(255,192,203);
+        
+        
         //linekiribuket
         g.setColor(Color.darkGray);
 //        g.fillRect(200, 250, 100, 100);
@@ -980,7 +989,7 @@ public class Mars extends Canvas{
         g.fillRect(210,203,8,5);
         g.fillRect(216,207,5,5);
         
-        g.setColor(Color.RED);
+        
         g.fillRect(246,218,5,5);
         g.fillRect(250,222,5,5);
         g.fillRect(254,214,5,18);
@@ -1002,9 +1011,14 @@ public class Mars extends Canvas{
         g.fillRect(189,181,5,10);
         g.fillRect(180,190,10,5);
 
-        Color daun=new Color(255,200,113); 
-        g.setColor(daun);
+
+        g.setColor(daunpetang);
         g.fillRect(190,190,5,5);
+        
+        g.setColor(Color.RED);
+        g.fillRect(176,177,18,5);
+        g.fillRect(174,174,5,5);
+        g.fillRect(180,161,18,5);
         
         
         
