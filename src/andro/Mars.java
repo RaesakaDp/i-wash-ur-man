@@ -37,6 +37,16 @@ public class Mars extends Canvas{
         Color bungapink2=new Color(255,192,203);
         
         
+                //Warnaaa
+        g.setColor(Pita);
+        g.fillRect(115,375,15,10);
+        
+        
+        g.setColor(daunpetang);
+        g.fillRect(190,190,5,5);
+        g.setColor(MidFlower);
+        g.fillRect(198,160,5,5);
+        
         //linekiribuket
         g.setColor(Color.darkGray);
 //        g.fillRect(200, 250, 100, 100);
@@ -1011,17 +1021,27 @@ public class Mars extends Canvas{
         g.fillRect(189,181,5,10);
         g.fillRect(180,190,10,5);
 
-
-        g.setColor(daunpetang);
-        g.fillRect(190,190,5,5);
-        
-        g.setColor(Color.RED);
         g.fillRect(176,177,18,5);
         g.fillRect(174,174,5,5);
         g.fillRect(180,161,18,5);
-        
-        
-        
-        
+        g.fillRect(186,157,5,5);
+        g.fillRect(180,153,7,5);
+        g.fillRect(182,148,5,10);
+        g.fillRect(172,138,5,15);
+        g.fillRect(198,157,5,15);
+        g.fillRect(198,150,5,15);
+           
+        g.fillRect(203,160,5,5);
+        g.fillRect(207,156,5,5);
+        g.fillRect(211,147,5,10);
+        g.fillRect(202,143,9,5);
+        g.fillRect(198,147,5,5);
+        g.fillRect(176,143,15,5);
+       
+        g.fillRect(190,146,5,5);
+        g.fillRect(194,144,5,5);
+        g.fillRect(208,164,5,5);
+        g.fillRect(212,168,5,5);
+ 
     }
 }
